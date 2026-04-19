@@ -13,5 +13,3 @@ async def webhook(request: Request):
     data = await request.json()
     print("INCOMING:", data)
     return {"ok": True}
-
-add main app
